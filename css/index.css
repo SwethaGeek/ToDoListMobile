@@ -1,0 +1,451 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container
+{
+  width: 50%;
+  height: 10%;
+  margin:50px auto;
+position: relative;
+}
+
+.upper-container-1
+{
+  width: 35%;
+  height: 100%;
+  padding-top: 20px;
+}
+.upper-container-2
+{
+  width: 40%;
+  height: 100%;
+  padding-top: 20px;
+  position: absolute;
+  top:0;
+  right: 0;
+
+}
+#tasks
+{
+font-weight: bold;
+font-size: 2.5rem;
+}
+#lists
+{
+font-size: 2.5rem;
+margin-left:5px;
+opacity: 0.4;
+font-weight:lighter;
+}
+.circle{
+  font-size:2rem;
+  color:green;
+  width:10%;
+  position: absolute;
+  left: 5%;
+  padding-top: 5px;
+  margin: 0
+}
+.paris-link
+{
+text-decoration: none;
+width: 85%;
+height:28%;
+position: absolute;
+top:40%;
+right:25px;
+font-size: 23px;
+text-align: left;
+color: #FF6464;
+}
+.fa-plus-circle
+{
+  color: red;
+  text-decoration: none;
+}
+.addList
+{
+  position: absolute;
+  left:20%;
+  width: 50%;
+  font-size: 2rem;
+  opacity: 0.5;
+  padding-top: 5px;
+}
+.container
+{
+  width: 95%;
+  height: 60vh;
+  position: relative;
+
+}
+.card1
+{
+  width: 15%;
+  height: 42vh;
+  border:1px solid green;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px lightgrey;
+  display: inline-block;
+  position: absolute;
+  left: 25%;
+}
+.card2
+{
+  width: 15%;
+  height: 42vh;
+  border: 1px solid green;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px lightgrey;
+  display:inline-block;
+  position: absolute;
+  left: 40%;
+  margin-left: 25px;
+  }
+.card3
+{
+  width: 15%;
+  height: 42vh;
+  border: 1px solid green;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px lightgrey;
+  display: inline-block;
+  position: absolute;
+  left: 57%;
+  margin-left: 25px;
+}
+.card1-div1
+{
+  width: 85%;
+  height:28%;
+  position: absolute;
+  top:5%;
+  right:0;
+  font-size: 25px;
+  border-bottom: 1px solid grey;
+  text-align: left;
+  color: #FF6464;
+}
+
+.card1-div2
+{
+  width: 95%;
+  height: 20%;
+  position: absolute;
+  top: 35%;
+  font-size: 20px;
+  color: #DA1212;
+  text-align:center;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+.card1-div3
+{
+  width: 90%;
+  height: 20%;
+  position: absolute;
+  top: 55%;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: left;
+}
+.card1-check
+{
+  width:15px;
+  height:15px;
+  margin-left: 10px;
+}
+.card2-div1
+{
+width:85%;
+height:28%;
+position: absolute;
+right: 0;
+top: 5%;
+border-bottom: 1px solid grey;
+color: #FF6464;
+text-align: left;
+font-size: 25px;
+}
+
+.card2-div2
+{
+  width: 95%;
+  height: 20%;
+  position: absolute;
+  top: 35%;
+  font-size: 20px;
+  color: #DA1212;
+  text-align:center;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+.card2-div3
+{
+  width:95%;
+  height:20%;
+  position: absolute;
+  top:55%;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 10px;
+}
+.card2-check{
+  width: 15px;
+  height: 15px;
+  margin-left:10px;
+}
+
+.card3-div1
+{
+  width:85%;
+  height:28%;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  border-bottom: 1px solid grey;
+  color: #FF6464;
+  font-size: 25px;
+}
+
+.card3-div2
+{
+  width: 95%;
+  height: 20%;
+  position: absolute;
+  top: 35%;
+  font-size: 20px;
+  color: #DA1212;
+  text-align:center;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+.card3-div3
+{
+  width: 95%;
+  height: 20%;
+  position: absolute;
+  top: 55%;
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: left;
+}
+.card3-check
+{
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.footer
+{
+  width: 85%;
+  height: 20%;
+  position: relative;
+  font-size: 30px;
+}
+
+.fa-home
+{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left:45%;
+  top: 5%;
+  color: #D47AE8;
+  animation-name: home;
+  animation-duration: 1s;
+  animation-iteration-count:1;
+  animation-timing-function: ease-out;
+  transition: transform 1s ease-out;
+  animation-play-state: paused;
+}
+@keyframes home {
+  100%
+  {
+    transform: rotate(1turn);
+  }
+}
+.fa-home:hover
+{
+  animation-play-state:running;
+cursor: pointer;
+}
+.fa-arrow-left
+{
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  font-size: 25px;
+  margin-top:5px;
+color: #B1E693;
+  animation-name: arrow-left;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  transition: transform 1s ease-in;
+  text-decoration: none;
+}
+@keyframes arrow-left {
+  100%
+  {
+    transform: skewX(5deg);
+  }
+}
+.fa-arrow-left:hover
+{
+  animation-play-state: paused;
+  cursor:pointer;
+}
+.span-text
+{
+  position: absolute;
+  left: 53%;
+  font-size: 25px;
+  font-weight: lighter;
+  margin-top: 5px;
+font-family: 'Neucha', cursive;
+}
+.fa-arrow-right
+{
+  display: inline-block;
+  position: absolute;
+  left: 58%;
+  font-size: 25px;
+  margin-top:5px;
+color: #B1E693;
+text-decoration: none;
+  animation-name: arrow-right;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  transition: transform 1s ease-in;
+}
+@keyframes arrow-right {
+  100%
+  {
+    transform: skewX(5deg);
+  }
+}
+.fa-arrow-right:hover
+{
+  cursor: pointer;
+  animation-play-state: paused;
+}
+
+@media (max-width:600px){
+  .upper-container
+  {
+    width:80%;
+  }
+  .upper-container-1
+  {
+    width: 75%;
+  }
+  .upper-container-2
+  {
+    width: 20%;
+  }
+  .addList
+  {
+    display: none;
+  }
+
+  .card1-div2
+  {
+    display: none;
+  }
+  .card1-div3
+  {
+    display: none;
+  }
+  .card2-div2
+  {
+    display: none;
+  }
+  .card2-div3
+  {
+    display: none;
+  }
+  .card3-div2
+  {
+    display: none;
+  }
+  .card3-div3
+  {
+    display: none;
+  }
+
+  .card1
+  {
+    width:90%;
+    height:8vh;
+    left: 10%;
+
+  }
+  .card2
+  {
+    width:87%;
+    height:8vh;
+    left:4%;
+    top:25%;
+
+  }
+  .card3
+  {
+    width:87%;
+    height:8vh;
+    left:5%;
+    top:50%;
+
+  }
+  .paris-link
+  {
+    color:grey;
+    top:70%;
+    right:25px;
+    font-size: 25px;
+  }
+  .card1-div1
+  {
+    border-bottom: none;
+    color: grey;
+  }
+  .card2-div1
+  {
+    border-bottom: none;
+    color: grey;
+  }
+  .card3-div1
+  {
+    border-bottom: none;
+    color: grey;
+  }
+  .fa-home
+  {
+left:30%;
+  }
+  .fa-arrow-left
+  {
+    left: 45%;
+  }
+.span-text
+{
+  left:55%;
+
+}
+.fa-arrow-right
+{
+  left: 75%;
+}
+p
+{
+  margin:15px 15px;
+}
+}
